@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffd800;
+    margin: 0;
+    padding: 0;
+}
+
+.form-container {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+    .form-group label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .form-group input[type="text"],
+    .form-group textarea {
+        width: 100%;
+        padding: 5px;
+        font-size: 16px;
+    }
+
+.submit-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+    .submit-btn:hover {
+        background-color: ##56b8af;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Style reviews */
+#reviews {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+    #reviews h2 {
+        margin-bottom: 20px;
+    }
+
+.review {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+    .review img {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-right: 20px;
+    }
+
+.review-content {
+    flex: 1;
+}
+
+    .review-content h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .review-content p {
+        font-style: italic;
+    }
+
+
+/* Style*/
+/* Star Rate*/
+.star {
+    font-size: 30px;
+    color: #ffd800;
+}
+
+.star-rating .star {
+    display: inline-block;
+    transition: color 0.2s;
+}
+
+    .star-rating .star:hover,
+    .star-rating .star:hover ~ .star {
+        color: #ffd800;
+    }
+
+
+
+
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Header Styles */
+header {
+    background-color: #333333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+    nav a:hover {
+        background-color: #fff;
+        color: #333;
